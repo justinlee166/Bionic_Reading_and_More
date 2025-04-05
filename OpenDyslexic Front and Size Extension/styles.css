@@ -1,0 +1,8 @@
+.dyslexia-friendly {
+    font-family: 'OpenDyslexic', Arial, sans-serif !important;
+  }
+  
+  #fontSizeValue {
+    color: white; /* Ensures contrast against the dark background */
+    font-weight: bold;
+  }

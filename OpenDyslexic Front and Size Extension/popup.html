@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Font Changer</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background-color: #2C3930;
+      color: #DCD7C9;
+    }
+    label {
+      font-size: 14px;
+      display: block;
+      margin: 10px 0;
+    }
+    input[type="range"] {
+      width: 100%;
+    }
+    .font-size-display {
+      font-size: 12px;
+      color: #333;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 8px;
+      width: 100%;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Font Settings</h2>
+
+  <!-- Font Size Slider -->
+  <label for="fontSizeSlider">Font Size:</label>
+  <input type="range" id="fontSizeSlider" min="10" max="50" value="16">
+  <span id="fontSizeValue" style="color: #DCD7C9; font-weight: bold;">16px</span>
+
+
+  <!-- Font Toggle -->
+  <label>
+    <input type="checkbox" id="fontToggle">
+    Enable OpenDyslexic Font
+  </label>
+
+  <!-- Apply Changes Button -->
+  <button id="applyBtn">Apply Changes</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

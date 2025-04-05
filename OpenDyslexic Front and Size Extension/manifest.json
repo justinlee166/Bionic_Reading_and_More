@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Dyslexic Font & Font Size Changer",
+    "version": "1.0",
+    "description": "Change font size and enable OpenDyslexic font on webpages.",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }
