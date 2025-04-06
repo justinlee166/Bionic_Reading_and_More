@@ -51,7 +51,7 @@ We developed this project using HTML, CSS, and JSON, leveraging Google’s exten
 
 ### 🔧 Installation Steps
 1️⃣ Clone the repository<br>
-git clone https://github.com/your-repo.git <br>
+git clone https://github.com/justinlee166/Bionic_Reading_and_More.git <br>
 cd your-repo <br>
 <br>
 2️⃣ Load the extension into Chrome
