@@ -1,5 +1,5 @@
 # 🚀 Bionic Reading
-## 🏆 WiCS Hopper Hacks Hackathon Winning Submission for Best Diversity and Inclusion Hack| 02/22/2025 - 02/23/2025
+## 🏆 WiCS Hopper Hacks Hackathon Winning Submission for Best Diversity and Inclusion Hack | 02/22/2025 - 02/23/2025
 ## 📌 Table of Contents
 - [About the Project](#-about-the-project)
 - [Demo](#-demo)
